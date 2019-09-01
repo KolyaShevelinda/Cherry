@@ -39,8 +39,24 @@ body {
     margin-top: 19px;
 }
 
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-2 {
+    padding-left: 2px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
 .pt-44 {
     padding-top: 44px;
+}
+
+.lh-20 {
+    line-height: 20px;
 }
 
 /* ********** Header styles ********** */
@@ -155,7 +171,8 @@ main .main-inf-nav .top-img h4 {
     padding-top: 18px;
 }
 
-main .main-inf-nav .top-img h2:first-letter {
+main .main-inf-nav .top-img h2,
+main .main-container .main-info .what h3:first-letter {
     color: #ae4b5d;
 }
 
@@ -198,12 +215,14 @@ main .main-inf-nav .nav nav ul li {
     height: 36px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 24px 0 24px;
+    padding: 0 26px 0 26px;
 }
 
 main .main-inf-nav .nav nav ul li:hover {
-    background-color: #7b2b45;
+    background-color: #d03698;
     font-size: 16px;
+    opacity: 0.7;
+    transition: opacity 0.7s;
     transition-duration: 0.7s;
 }
 
@@ -214,6 +233,10 @@ main .main-inf-nav .nav nav li a {
     line-height: 36px;
     text-align: center;
     text-decoration: none;
+}
+
+main .main-inf-nav .nav nav li a:hover {
+    color: #d7eb29;
 }
 
 /* Styles section breadcrumps */
@@ -247,7 +270,6 @@ main .main-inf-nav .breadcrumbs .path a:hover {
 /* ***** Styles main container ***** */
 main .main-container {
     display: flex;
-    flex-direction: column;
 }
 
 /* Styles side left */
@@ -376,13 +398,79 @@ main .main-container .side-left .aside-info a:hover {
     text-decoration: none;
 }
 
-
 /* Styles main information */
 main .main-container .main-info {
-    width: 730px;
+    width: 734px;
     height: auto;
     background-color: #ffffff;
 }
 
+main .main-container .main-info .what {
+    width: 720px;
+    padding-left: 2px;
+}
+
+main .main-container .main-info .what h3 {
+    color: #a5adb8;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+main .main-container .main-info .what p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .main-container .main-info .what a {
+    color: #95161f;
+}
+
+main .main-container .main-info .what a:hover {
+    text-decoration: none;
+}
+
+main .main-container .main-info .video-inf {
+    display: flex;
+    flex-direction: row;
+}
+
+main .main-container .main-info .video-inf .materials-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .main-container .main-info .video-inf .materials-info .admin-panel img,
+main .main-container .main-info .video-inf .materials-info .shortcodes img,
+main .main-container .main-info .video-inf .materials-info .videos img {
+    max-width: 100%;
+    width: 194px;
+    height: 140px;
+    margin: 0 14px 0 0;
+    border: 1px solid #ffffff;
+    box-shadow: 0 7px 7px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+}
+
+main .main-container .main-info .video-inf .materials-info .admin-panel img:hover,
+main .main-container .main-info .video-inf .materials-info .shortcodes img:hover,
+main .main-container .main-info .video-inf .materials-info .videos img:hover {
+    max-width: 100%;
+    width: 200px;
+    height: 146px;
+    margin: 0 14px 0 0;
+    border: 1px solid #ffffff;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22);
+}
+
+main .main-container .main-info .video-inf .materials-info .admin-panel h4,
+main .main-container .main-info .video-inf .materials-info .shortcodes h4,
+main .main-container .main-info .video-inf .materials-info .videos h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
 /* ********** Footer styles ********** */

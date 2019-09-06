@@ -231,9 +231,8 @@ main .main-inf-nav .nav nav ul li:hover {
     background-color: #d03698;
     cursor: pointer;
     font-size: 16px;
-    padding: 0 28px 0 28px;
     opacity: 1;
-    transition-duration: 0.8s;
+    transition: 0.8s;
 }
 
 main .main-inf-nav .nav nav li a {
@@ -243,10 +242,6 @@ main .main-inf-nav .nav nav li a {
     line-height: 36px;
     text-align: center;
     text-decoration: none;
-}
-
-main .main-inf-nav .nav nav li a:hover {
-    color: #27cbfd;
 }
 
 /* Styles section breadcrumps */
@@ -290,7 +285,8 @@ main .main-container .side-left {
 }
 
 main .main-container .side-left .form-contact {
-    width: 215px;
+    width: 213px;
+    height: 410px;
     background-color: #f3f3f3;
     border: 1px solid #d8dbde;
     box-sizing: border-box; 
@@ -308,7 +304,7 @@ main .main-container .side-left .form-contact input {
     position: relative;
     overflow: hidden;
     height: 31px;
-    width: 165px;
+    width: 160px;
     margin: 16px 15px;
     padding: 0 10px 0 10px;
     font-size: 14px;
@@ -352,7 +348,7 @@ main .main-container .side-left .form-contact select {
     overflow: hidden;
     color: #757575;
     height: 31px;
-    width: 185px;
+    width: 180px;
     margin: 16px 15px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -382,12 +378,10 @@ main .main-container .side-left .form-contact a {
 
 main .main-container .side-left .form-contact a:hover {
     background-color: #d03698;
-    color: #27cbfd;
-    max-width: 100%;
-    width: 140px;
-    height: 17px;
+    /* color: #27cbfd; */
+    /* max-width: 100%; */
     opacity: 1;
-    transition-duration: 0.8s;
+    transition: 0.8s;
 }
 
 main .main-container .side-left .aside-info h4 {
@@ -438,7 +432,7 @@ main .main-container .main-info h3 {
 }
 
 main .main-container .main-info .what p {
-    font-size: 14px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #5c646e;
 }
@@ -460,6 +454,8 @@ main .main-container .main-info .video-inf {
 main .main-container .main-info .video-inf .materials-info {
     display: flex;
     justify-content: flex-start;
+    width: 718px;
+    height: 180px;
 }
 
 main .main-container .main-info .video-inf .materials-info .admin-panel img,
@@ -476,14 +472,14 @@ main .main-container .main-info .video-inf .materials-info .videos img {
 main .main-container .main-info .video-inf .materials-info .admin-panel img:hover,
 main .main-container .main-info .video-inf .materials-info .shortcodes img:hover,
 main .main-container .main-info .video-inf .materials-info .videos img:hover {
-    max-width: 100%;
+    /* max-width: 100%;
     width: 200px;
     height: 146px;
     margin: 0 14px 0 0;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff; */
     opacity: 0.8;
-    transition-duration: 0.8s;
-    box-shadow: 0 8px 8px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22);
+    /* transition-duration: 0.8s;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22); */
 }
 
 main .main-container .main-info .video-inf .materials-info .admin-panel h4,
@@ -503,18 +499,38 @@ main .main-container .main-info .list {
     width: 690px;
 }
 
-main .main-container .main-info .list .column-one {
-    display: block;
+main .main-container .main-info .list .column-one .inline h5,
+main .main-container .main-info .list .column-two .inline h5,
+main .main-container .main-info .list .column-three .inline h5 {
+    display: inline-block;
     position: relative;
-}
-
-main .main-container .main-info .list .column-one h5,
-main .main-container .main-info .list .column-two h5,
-main .main-container .main-info .list .column-three h5 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #5c646e;
+}
+
+main .main-container .main-info .list .column-one .inline p,
+main .main-container .main-info .list .column-two .inline p,
+main .main-container .main-info .list .column-three .inline p {
+    display: inline-block;
+    position: relative;
+    background: #dedede;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c646e;
+}
+
+main .main-container .main-info .list .column-one .inline p,
+main .main-container .main-info .list .column-three .inline p {
+    width: 28px;
+    padding: 1px 1px 1px 1px;
+}
+
+main .main-container .main-info .list .column-two .inline p {
+    width: 134px;
+    padding: 1px 1px 1px 1px;
 }
 
 main .main-container .main-info .list .column-one ul li,
@@ -530,8 +546,7 @@ main .main-container .main-info .list .column-three ol li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main .main-container .main-info .list .column-three {
+/* Table content */
 
-}
 
 /* ********** Footer styles ********** */

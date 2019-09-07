@@ -18,6 +18,22 @@ body {
     max-width: 984px;
 }
 
+.brtl-3 {
+    border-radius: 3px 0 0 0;
+}
+
+.brbl-3 {
+    border-radius: 0 0 0 3px;
+}
+
+.brtr-3 {
+    border-radius: 0 3px 0 0;
+}
+
+.brbr-3 {
+    border-radius: 0 0 3px 0;
+}
+
 .mr-20 {
     margin-right: 20px;
 }
@@ -34,12 +50,20 @@ body {
     margin-top: 19px;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
 .pb-15 {
     padding-bottom: 15px;
 }
 
 .pb-20 {
     padding-bottom: 20px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
 }
 
 .pl-2 {
@@ -305,7 +329,7 @@ main .main-container .side-left .form-contact input {
     overflow: hidden;
     height: 31px;
     width: 160px;
-    margin: 16px 15px;
+    margin: 15px 15px;
     padding: 0 10px 0 10px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -418,7 +442,7 @@ main .main-container .main-info {
 }
 
 main .main-container .main-info .what {
-    width: 690px;
+    width: 695px;
     padding-left: 2px;
 }
 
@@ -432,7 +456,7 @@ main .main-container .main-info h3 {
 }
 
 main .main-container .main-info .what p {
-    font-size: 13px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #5c646e;
 }
@@ -547,6 +571,74 @@ main .main-container .main-info .list .column-three ol li {
 }
 
 /* Table content */
+main .main-container .main-info .table {
+    display: flex;
+    /* width: 699px;
+    height: 270px; */
+    margin-bottom: 44px
+}
+
+main .main-container .main-info .table .ul1 li,
+main .main-container .main-info .table .ul2 li,
+main .main-container .main-info .table .ul3 li,
+main .main-container .main-info .table .ul4 li,
+main .main-container .main-info .table .ul5 li {
+    height: 32px;
+    line-height: 32px;
+    color: #f9f6f6;
+    background: #282d33;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .main-container .main-info .table .ul1 li {
+    /* width: 46px; */
+    width: 44px;
+    text-align: center;
+    vertical-align: center;
+}
+
+main .main-container .main-info .table .ul2 li {
+    /* width: 126px; */
+    width: 124px;
+    padding-left: 13px; 
+}
+
+main .main-container .main-info .table .ul3 li {
+    /* width: 206px; */
+    width: 180px;
+    padding-left: 13px; 
+}
+
+main .main-container .main-info .table .ul4 li {
+    /* width: 187px; */
+    width: 165px;
+    padding-left: 13px; 
+}
+
+main .main-container .main-info .table .ul5 li {
+    /* width: 125px; */
+    width: 123px;
+    padding-left: 13px; 
+}
+
+main .main-container .main-info .table .ul1 li:first-child,
+main .main-container .main-info .table .ul2 li:first-child,
+main .main-container .main-info .table .ul3 li:first-child,
+main .main-container .main-info .table .ul4 li:first-child,
+main .main-container .main-info .table .ul5 li:first-child {
+    background: #9c4757;
+    text-align: center;
+    vertical-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main .main-container .main-info .table .ul5 li a {
+    color: #d08b98;
+}
 
 
 /* ********** Footer styles ********** */

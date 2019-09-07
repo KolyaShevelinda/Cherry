@@ -1,7 +1,7 @@
 /* ****************** Main part styles this is project ****************** */
 body {
     background-color: #e1e4e6;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -60,10 +60,6 @@ body {
 
 .pb-20 {
     padding-bottom: 20px;
-}
-
-.pb-24 {
-    padding-bottom: 24px;
 }
 
 .pl-2 {
@@ -186,6 +182,7 @@ main .main-inf-nav .top-img {
     box-sizing: border-box;
     border-top: 1px solid rgba(81, 50, 75, 0.3);
     border-bottom: 1px solid rgba(81, 51, 75, 0.3);
+    /* object-fit: cover; */
 }
 
 main .main-inf-nav .top-img h2 {
@@ -205,7 +202,8 @@ main .main-inf-nav .top-img h4 {
 
 main .main-inf-nav .top-img h2:first-letter,
 main .main-container .main-info .what h3:first-letter,
-main .main-container .main-info h3:first-letter {
+main .main-container .main-info h3:first-letter,
+footer .footer-info .footer-col1 h4:first-letter {
     color: #ae4b5d;
 }
 
@@ -496,14 +494,7 @@ main .main-container .main-info .video-inf .materials-info .videos img {
 main .main-container .main-info .video-inf .materials-info .admin-panel img:hover,
 main .main-container .main-info .video-inf .materials-info .shortcodes img:hover,
 main .main-container .main-info .video-inf .materials-info .videos img:hover {
-    /* max-width: 100%;
-    width: 200px;
-    height: 146px;
-    margin: 0 14px 0 0;
-    border: 1px solid #ffffff; */
     opacity: 0.8;
-    /* transition-duration: 0.8s;
-    box-shadow: 0 8px 8px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22); */
 }
 
 main .main-container .main-info .video-inf .materials-info .admin-panel h4,
@@ -573,8 +564,6 @@ main .main-container .main-info .list .column-three ol li {
 /* Table content */
 main .main-container .main-info .table {
     display: flex;
-    /* width: 699px;
-    height: 270px; */
     margin-bottom: 44px
 }
 
@@ -640,5 +629,42 @@ main .main-container .main-info .table .ul5 li a {
     color: #d08b98;
 }
 
-
 /* ********** Footer styles ********** */
+footer {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 237px;
+    background: url(../img/img-footer2.png) repeat;
+}
+
+footer .footer-info {
+    height: 237px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .footer-info .footer-col1 {
+    width: 271px;
+}
+
+footer .footer-info .footer-col1 h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #a5adb8;
+}
+
+footer .footer-info .footer-col1 p {
+
+}
+
+footer .footer-info .footer-col2 {
+    width: 271px;
+}
+
+footer .footer-info .footer-col3 {
+    width: 271px;
+}

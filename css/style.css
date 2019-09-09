@@ -21,20 +21,20 @@ body {
     max-width: 984px;
 }
 
-.brtl-3 {
-    border-radius: 3px 0 0 0;
+.brtl-4 {
+    border-radius: 4px 0 0 0;
 }
 
-.brbl-3 {
-    border-radius: 0 0 0 3px;
+.brbl-4 {
+    border-radius: 0 0 0 4px;
 }
 
-.brtr-3 {
-    border-radius: 0 3px 0 0;
+.brtr-4 {
+    border-radius: 0 4px 0 0;
 }
 
-.brbr-3 {
-    border-radius: 0 0 3px 0;
+.brbr-4 {
+    border-radius: 0 0 4px 0;
 }
 
 .mr-20 {
@@ -682,6 +682,14 @@ footer .footer-info .footer-col3 {
     width: 271px;
 }
 
+footer .footer-info .footer-col2 .disc li {
+    color: #9c4757;
+}
+
+footer .footer-info .footer-col2 .disc li span {
+    color: #9da4af;
+}
+
 footer .footer-info .footer-col1 .border-bottom,
 footer .footer-info .footer-col2 .border-bottom,
 footer .footer-info .footer-col3 .border-bottom {
@@ -722,6 +730,8 @@ footer .footer-info .footer-col2 .inline p {
 footer .footer-info .footer-col2 .boold-li {
     font-size: 14px;
     font-weight: bold;
+    list-style-type: none;
+    margin-left: -12px;
 }
 
 footer .footer-info .footer-col3 a {

@@ -185,27 +185,30 @@ header .layout .form-search .search:focus:-ms-input-placeholder {
 
 /* ********** Main styles ********** */
 /* Styles section top-img */
-main .main-inf-nav .top-img {
+main .nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .nav-container .top-img {
     width: 100%;
     height: 100%;
     max-height: 240px;
     background: url(../img/img-header.png) no-repeat;
     background-size: 100%;
-    background-position: center ;
+    background-position: center;
     box-sizing: border-box;
-    border-top: 1px solid rgba(81, 50, 75, 0.3);
-    border-bottom: 1px solid rgba(81, 51, 75, 0.3);
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
-main .main-inf-nav .top-img h2 {
+main .nav-container .top-img h2 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #a5adb8;
 }
 
-main .main-inf-nav .top-img h4 {
+main .nav-container .top-img h4 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -213,7 +216,7 @@ main .main-inf-nav .top-img h4 {
     padding-top: 18px;
 }
 
-main .main-inf-nav .top-img h2:first-letter,
+main .nav-container .top-img h2:first-letter,
 main .main-container .main-info .what h3:first-letter,
 main .main-container .main-info h3:first-letter,
 footer .footer-info .footer-col1 h4:first-letter,
@@ -221,7 +224,7 @@ footer .footer-info .footer-col2 p:first-letter {
     color: #ae4b5d;
 }
 
-main .main-inf-nav .top-img .p1 {
+main .nav-container .top-img .p1 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -229,7 +232,7 @@ main .main-inf-nav .top-img .p1 {
     padding-top: 2px;
 }
 
-main .main-inf-nav .top-img .p2 {
+main .nav-container .top-img .p2 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #d9dcdf;
@@ -240,31 +243,31 @@ main .main-inf-nav .top-img .p2 {
 }
 
 /* Styles section navigate */
-main .main-inf-nav .nav {
+main .nav-container .nav {
     display: block;
     height: 36px;
     width: 100%;
     background-color: #95161f;
 }
 
-main .main-inf-nav .nav nav {
+main .nav-container .nav nav {
     display: flex;
     justify-content: flex-end;
 }
 
-main .main-inf-nav .nav nav ul {
+main .nav-container .nav nav ul {
     display: flex;
     flex-direction: row;
 }
 
-main .main-inf-nav .nav nav ul li {
+main .nav-container .nav nav ul li {
     height: 36px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 26px 0 26px;
 }
 
-main .main-inf-nav .nav nav ul li:hover {
+main .nav-container .nav nav ul li:hover {
     background-color: #d03698;
     cursor: pointer;
     font-size: 16px;
@@ -272,7 +275,7 @@ main .main-inf-nav .nav nav ul li:hover {
     transition: 0.8s;
 }
 
-main .main-inf-nav .nav nav li a {
+main .nav-container .nav nav li a {
     display: block;
     color: #ffffff;
     font-weight: bold;
@@ -282,30 +285,30 @@ main .main-inf-nav .nav nav li a {
 }
 
 /* Styles section breadcrumps */
-main .main-inf-nav .breadcrumbs {
+main .nav-container .breadcrumbs {
     display: block;
     width: 100%;
     height: 26px;
     background-color: #f3f3f3;
 }
 
-main .main-inf-nav .breadcrumbs .path {
+main .nav-container .breadcrumbs .path {
     padding-left: 2px;
 }
 
-main .main-inf-nav .breadcrumbs .path a {
+main .nav-container .breadcrumbs .path a {
     color: #95161f;
     font-size: 11px;
     line-height: 26px;
     text-align: center;  
 }
 
-main .main-inf-nav .breadcrumbs .path a:last-child {
+main .nav-container .breadcrumbs .path a:last-child {
     text-decoration: none;
     color: #6b6f74;
 }
 
-main .main-inf-nav .breadcrumbs .path a:hover {
+main .nav-container .breadcrumbs .path a:hover {
     text-decoration: none;
 }
 

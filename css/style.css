@@ -8,15 +8,12 @@ body {
 }
 
 .wrapper {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     margin:  0 auto;
 }
 
 .main-size {
-    display: block;
     margin:  0 auto;
     max-width: 984px;
 }
@@ -105,6 +102,7 @@ body {
 /* Header styles */
 header {
     display: block;
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 72px;
@@ -186,16 +184,11 @@ header .layout .form-search .search:focus:-ms-input-placeholder {
 /* ********** Main styles ********** */
 /* Styles section top-img */
 main .main-inf-nav .top-img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
     max-height: 240px;
-    background: url(../img/img-header.png) no-repeat;
+    background: url(../img/img-top_main.png) no-repeat;
     background-size: 100%;
-    background-position: center ;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(81, 50, 75, 0.3);
-    border-bottom: 1px solid rgba(81, 51, 75, 0.3);
-    object-fit: cover;
+    background-position: center;
 }
 
 main .main-inf-nav .top-img h2 {
@@ -234,6 +227,7 @@ main .main-inf-nav .top-img .p2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #d9dcdf;
     padding-top: 8px;
+    padding-bottom: 38px;
     width: 484px;
     line-height: 18px;
 }
@@ -241,6 +235,8 @@ main .main-inf-nav .top-img .p2 {
 /* Styles section navigate */
 main .main-inf-nav .nav {
     display: block;
+    position: relative;
+    overflow: hidden;
     height: 36px;
     width: 100%;
     background-color: #95161f;
@@ -740,4 +736,9 @@ footer .footer-info .footer-col3 a {
 
 footer .footer-info .footer-col3 a:hover {
     text-decoration: none;
+}
+
+/* @media for responsive */
+@media (min-width: 896px) and (max-width: 1023px) {
+
 }

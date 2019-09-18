@@ -868,6 +868,7 @@ footer .footer-info .footer-col3 a:hover {
     line-height: 23px;
     }
 }
+
 @media (min-width: 812px) and (max-width: 895px) {
     main .main-container {
         display: flex;
@@ -1000,6 +1001,7 @@ footer .footer-info .footer-col3 a:hover {
         padding-bottom: 25px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 811px) {
     main .main-container {
         display: flex;
@@ -1132,12 +1134,13 @@ footer .footer-info .footer-col3 a:hover {
         padding-bottom: 25px;
     }
 }
+
 @media (min-width: 667px) and (max-width: 767px) {
     main .main-inf-nav .nav nav {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        height: auto;
+        /* flex-wrap: wrap; */
+        /* height: auto; */
     }
     main .main-inf-nav .nav nav ul li {
         height: 36px;
@@ -1217,10 +1220,6 @@ footer .footer-info .footer-col3 a:hover {
         width: 95%;
         padding-left: 2px;
     }
-    /* main .main-container .main-info .video-inf {
-        display: flex;
-        flex-direction: column;
-    } */
     main .main-container .main-info .video-inf .materials-info {
         display: flex;
         flex-direction: column;
@@ -1234,9 +1233,31 @@ footer .footer-info .footer-col3 a:hover {
     main .main-container .main-info .video-inf .materials-info .shortcodes,
     main .main-container .main-info .video-inf .materials-info .videos {
         margin: 0 auto;
-        /* width: 100%; */
-        /* margin-right: 10px; */
         padding-bottom: 15px;
+        margin-bottom: 50px;
+        width: 260px;
+        height: 206px;
+
+    }
+    main .main-container .main-info .video-inf .materials-info .admin-panel img,
+    main .main-container .main-info .video-inf .materials-info .shortcodes img,
+    main .main-container .main-info .video-inf .materials-info .videos img {
+        width: 100%;
+        height: 100%;
+    }
+    main .main-container .main-info .list .all-columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0 auto;
+        width: 95%;
+    }
+    main .main-container .main-info .list .all-columns .column-one,
+    main .main-container .main-info .list .all-columns .column-two,
+    main .main-container .main-info .list .all-columns .column-three {
+        margin-bottom: 25px;
     }
     main .main-container .main-info h3 {
         margin: 0 auto;

@@ -520,9 +520,9 @@ main .main-container .main-info .list {
     width: 690px;
 }
 
-main .main-container .main-info .list .column-one .inline h5,
-main .main-container .main-info .list .column-two .inline h5,
-main .main-container .main-info .list .column-three .inline h5 {
+main .main-container .main-info .list .all-columns .column-one .inline h5,
+main .main-container .main-info .list .all-columns .column-two .inline h5,
+main .main-container .main-info .list .all-columns .column-three .inline h5 {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -532,9 +532,9 @@ main .main-container .main-info .list .column-three .inline h5 {
     color: #5c646e;
 }
 
-main .main-container .main-info .list .column-one .inline p,
-main .main-container .main-info .list .column-two .inline p,
-main .main-container .main-info .list .column-three .inline p {
+main .main-container .main-info .list .all-columns .column-one .inline p,
+main .main-container .main-info .list .all-columns .column-two .inline p,
+main .main-container .main-info .list .all-columns .column-three .inline p {
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -545,25 +545,25 @@ main .main-container .main-info .list .column-three .inline p {
     color: #5c646e;
 }
 
-main .main-container .main-info .list .column-one .inline p,
-main .main-container .main-info .list .column-three .inline p {
+main .main-container .main-info .list .all-columns .column-one .inline p,
+main .main-container .main-info .list .all-columns .column-three .inline p {
     width: 28px;
     padding: 1px 1px 1px 1px;
 }
 
-main .main-container .main-info .list .column-two .inline p {
+main .main-container .main-info .list .all-columns .column-two .inline p {
     width: 134px;
     padding: 1px 1px 1px 1px;
 }
 
-main .main-container .main-info .list .column-one ul li,
-main .main-container .main-info .list .column-two ul li {
+main .main-container .main-info .list .all-columns .column-one ul li,
+main .main-container .main-info .list .all-columns .column-two ul li {
     color: #5c646e;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main .main-container .main-info .list .column-three ol li {
+main .main-container .main-info .list .all-columns .column-three ol li {
     color: #5c646e;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1139,8 +1139,8 @@ footer .footer-info .footer-col3 a:hover {
     main .main-inf-nav .nav nav {
         display: flex;
         flex-direction: row;
-        /* flex-wrap: wrap; */
-        /* height: auto; */
+        flex-wrap: wrap;
+        height: auto;
     }
     main .main-inf-nav .nav nav ul li {
         height: 36px;

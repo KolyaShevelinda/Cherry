@@ -1024,7 +1024,7 @@ footer .footer-info .footer-col3 a:hover {
         align-items: center;
         width: 100%;
         height: auto;
-        background: black;
+        /* background: black; */
 
     }
     main .main-inf-nav .nav #burger ul li {

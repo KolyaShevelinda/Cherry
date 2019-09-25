@@ -15,5 +15,9 @@
     "url": "https://github.com/KolyaShevelinda/Cherry/issues"
   },
   "homepage": "https://github.com/KolyaShevelinda/Cherry#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  }
 }
